@@ -12,7 +12,7 @@ cp -R /app $COPIED_APP_PATH
 cd $COPIED_APP_PATH
 
 echo "Running 'meteor npm install'"
-meteor npm install
+npm install
 
 echo "Running 'meteor build'"
 meteor build --directory $BUNDLE_DIR --server=http://localhost:3000
