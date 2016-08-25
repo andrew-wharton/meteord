@@ -1,5 +1,7 @@
 set -e
 
+echo "Running build_app.sh"
+
 COPIED_APP_PATH=/copied-app
 BUNDLE_DIR=/tmp/bundle-dir
 
